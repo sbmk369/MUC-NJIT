@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title >
+            Justin Supe Personal Portfolio
+        </title>
+    </head>
+    <body>
+        <h1 style="background-color:red; color:whitesmoke"> Justin A. Supe Palate</h1>
+        <h3>
+            New Jersey Institute of Technology<br>Undergraduated Architecture Student
+            <br>Class of 2027 
+            <br>ID: 31489678 
+            <br>Architecture Program
+        </h3>
+        <p style="color:blueviolet" style="background-color:black">
+            Justin Supe is an undergraduate student at the New Jersey Institute of Technology. 
+            His major is a five-year Bachelor of Architecture degree and I hope he will graduate in the class of 2027. 
+            He was born in Ambato, Ecuador and has a dream of being a Great Architect who can help support the creation of a new world in the world. future. 
+        </p>
+        <a href= https://design.njit.edu>NJIT_HCAD_Home_Page</a><br>
+        <img src="c:\Users\justi\Downloads\IMG-2690.JPG" alt="Picture of my Graduation" windth="300" height="300">
+        <div style="margin-top: 10px;">
+            <head>
+            <style>
+                table {
+                  font-family: 'Times New Roman', Times, serif, sans-serif;
+                  border-collapse: collapse;
+                  width: 100%;
+                }
+                td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 1%;
+}
+tr:nth-child(even) {
+  background-color: whitesmoke;
+}
+            </style>
+            </head>
+            <body>
+                <h2> Table </h2>
+            <Table>
+                <tr>
+                    <th>Education</th>
+                    <th>Experience</th>
+                    <th>Skills</th>
+                </tr>
+                <tr>
+                    <td>NJIT undergradueted Student</td>
+                    <td>Work in the Gym</td>
+                    <td>Be Possitive</td>
+                </tr>
+                <tr>
+                    <td>Essex County College</td>
+                    <td>undergraduated student</td>
+                    <td>Never Give up</td>
+                </tr>
+            </Table>
+            </body>
+            <div style="Margin-top:50px;">
+            <form>
+                <input type="text" placeholder="Username"> <br> <br>
+                <input type="text" placeholder="First Name"> <br><br>
+                <input type="text" placeholder="Last Name"><br><br>
+                <input type="email" placeholder="Email"><br><br>
+                <input type="file"> <br><br>
+                <input type="radio" name="course"> Math
+                <input type="radio" name="course">Computer Science
+                <input type="radio" name="course">Architecture<br><br>
+                <input type="checkbox" name="course">Math
+                <input type="checkbox" name="course">Computer Science 
+                <input type="checkbox" name="course">Architecture
+                <input type="submit" value="login">
+            </form>
+        </div>
+        <div>
+            <ul>
+            <li>Computer Science</li>
+            <li>Landscape</li>
+            <li>Construction</li>
+            </ul>
+        </div>
+    </body>
+</html>

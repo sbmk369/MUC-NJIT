@@ -1,0 +1,55 @@
+body{
+    background-color: blanched almond;
+}
+
+h1{
+    color:purple;
+    margin-left: 20px;
+    
+}
+
+th{
+    background-color: lightgray;
+    padding: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+}
+
+td{
+    padding: 10px;
+}
+
+table{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+img.img1{
+    height: 150px;
+    width: 150px;
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+    padding: 30px;
+}
+
+img.img2{
+    height:25%;
+    width: 25%;
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+    padding: 30px;
+}
+
+img.img3{
+    height: 50pt;
+    width: 50pt;
+    border-width: 5px;
+    border-color: red;
+    border-style: dashed;
+    padding: 30px;
+}

@@ -1,0 +1,31 @@
+table {
+    font-family: 'Times New Roman', Times, serif, sans-serif; 
+    border-collapse: collapse;
+    width: 30%;
+  }
+  td, th {
+border: 2px solid black;
+text-align: left;
+padding: 10px; 
+}
+tr:nth-child(even) {
+background-color: whitesmoke;
+}
+.css{
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 25px;
+}
+a.LabLink-1:hover{
+  color: red;
+}
+
+a.LabLink-2:visited{
+  color: grey;
+}
+
+a.LabLink-3:active{
+  color: orange;
+}

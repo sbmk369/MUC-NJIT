@@ -1,0 +1,19 @@
+p{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+a.Lab4Link1:hover{
+    color: red;
+}
+
+a.Lab4Link2:visited{
+    color: grey;
+}
+
+a.Lab4Link3:active{
+    color: orange;
+}

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>January 2024 Calendar</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+
+    caption {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>January 2024 Calendar</h1>
+
+  <table>
+    <caption>January 2024</caption>
+    <thead>
+      <tr>
+        <th>Sun</th>
+        <th>Mon</th>
+        <th>Tue</th>
+        <th>Wed</th>
+        <th>Thu</th>
+        <th>Fri</th>
+        <th>Sat</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>1</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+        <td>7</td>
+        <td>8</td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>11</td>
+        <td>12</td>
+        <td>13</td>
+        <td>14</td>
+        <td>15</td>
+        <td>16</td>
+      </tr>
+      <tr>
+        <td>17</td>
+        <td>18</td>
+        <td>19</td>
+        <td>20</td>
+        <td>21</td>
+        <td>22</td>
+        <td>23</td>
+      </tr>
+      <tr>
+        <td>24</td>
+        <td>25</td>
+        <td>26</td>
+        <td>27</td>
+        <td>28</td>
+        <td>29</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>31</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Page</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 10
+        px;
+      }
+  
+      h1 {
+        color: #333;
+      }
+  
+      .event-details {
+        margin-top: 20px;
+      }
+  
+      .rsvp-form {
+        margin-top: 20px;
+      }
+  
+      label {
+        display: block;
+        margin-bottom: 1%;
+      }
+  
+      input[type="text"], input[type="email"], input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+      }
+  
+      input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+  
+    <h1>Upcoming Events:</h1>
+  
+    <div class="event-details">
+      <p>Dates:</p>
+      <p>
+        Jan 15th First day of Spring Classes
+      </p>
+      <p>
+        Jan 19th Taco Tuesday
+      </p>
+
+  
+    </div>
+  
+    <div class="rsvp-form">
+      <h2>RSVP</h2>
+      <form action="#" method="post">
+        <label for="name">Event:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <input type="submit" value="RSVP">
+        
+      </form>
+      
+    </div>
+  
+  </body>
+  </html>
+</html>

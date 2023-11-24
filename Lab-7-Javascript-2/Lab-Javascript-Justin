@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+        <body>
+        <title >
+            Justin Supe Personal Portfolio
+        </title>
+        <h1 style="background-color:red; color:whitesmoke; width:100%; font-size: 50px;"> 
+            Justin A. Supe Palate</h1>
+        <h2 style="font-size: 15px">
+            New Jersey Institute of Technology
+            <br>Undergraduated Architecture Student
+            <br>Class of 2027 
+            <br>ID: 31489678 
+            <br>Architecture Program
+        </h2>
+        <p style="color:blueviolet; background-color: wheat; width: 100%; font-size: 15px;">
+            Justin Supe is an undergraduate student at the New Jersey Institute of Technology.<br>
+            His major is a five-year Bachelor of Architecture degree and I hope he will graduate in the class of 2027.<br>
+            He was born in Ecuador and has a dream of being a Great Architect who can help support the creation of a new world. 
+        </p>
+        <a href= https://design.njit.edu>NJIT_HCAD_Home_Page</a><br>
+        <img src="c:\Users\justi\Downloads\IMG-2690.JPG" class="rounded" alt="Picture of my Graduation" windth="300" height="300"; style="margin-top: 25px;">
+        <div style="margin-top: 5px;">
+            <body>
+                <h2 style="background-color: lightgray; width:100%; font-size: 50px;"> Table </h2>
+            <Table class="table table-hover">
+                <tr>
+                    <th>Education</th>
+                    <th>Experience</th>
+                    <th>Skills</th>
+                </tr>
+                <tr>
+                    <td>NJIT Undergradueted Student</td>
+                    <td>Work in the Gym</td>
+                    <td>Be Possitive</td>
+                </tr>
+                <tr>
+                    <td>Essex County College</td>
+                    <td>Undergraduated student</td>
+                    <td>Never Give up</td>
+                </tr>
+            </Table>
+            </body>
+            <div style="Margin-top: 30px;">
+            <form>
+                <input type="text" placeholder="Username"> <br> <br>
+                <input type="text" placeholder="First Name"> <br><br>
+                <input type="text" placeholder="Last Name"><br><br>
+                <input type="email" placeholder="Email"><br><br>
+                <input type="file"> <br><br>
+                <input type="radio" name="course"> Math
+                <input type="radio" name="course">Computer Science
+                <input type="radio" name="course">Architecture<br><br>
+                <input type="checkbox" name="course">Math
+                <input type="checkbox" name="course">Computer Science 
+                <input type="checkbox" name="course">Architecture
+                <input type="submit" value="login"; style="margin-left: 25px;">
+            </form>
+        </div>
+        <div>
+            <ul>
+            <li>Computer Science</li>
+            <li>Landscape</li>
+            <li>Construction</li>
+            </ul>
+            <div>
+                <style>
+                .img1{
+                    height: 150px;
+                    width: 150px;
+                    border: 5px red dashed;
+                    padding: 30px;
+                }
+                .img2{
+                    height: 50px;
+                    width: 150px;
+                    border: 5px red dashed;
+                    padding: 30px;
+                }
+                .img3{
+                    height: 4in;
+                    width: 3in;
+                    border: 5px red dashed;
+                    padding: 30px;
+                }
+            </style>
+            </div>
+        <div class="img1">
+            img1
+        </div>
+        <div class="img2">
+            img2
+        </div>
+        <div class="img3">
+            img3
+        </div>
+        <p class="css">
+            This semester at NJIT has been a pretty good experience because I have learned several things from the professors,<br>
+            the classes, the campus and people from different parts of the world who have helped me adapt to this new system since<br>
+            it is my first semester of study, at NJIT. Thanks to this I have been able to adapt in a good way, however, <br>
+            I am not 100% adapted so I hope that in the future I can improve my personality to be able to improve positively and graduate from NJIT.
+        </p>
+        <ul>
+            <li><a class="LabLink-1" href="https://www.njit.edu/">
+                Item-1
+            </a></li>
+            <li><a class="LabLink-2" href="https://news.njit.edu/mens-soccer-welcomes-13-recruits-part-2022-incoming-class">
+                Item-2
+            </a></li>
+            <li><a class="LabLink-3" href="https://www.njit.edu/development/">
+                Item-3
+            </a></li>
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                  Dropdown button
+                </button>
+                <ul class="dropdown-menu">
+                     <li><a class="dropdown-item" href="https://www.njit.edu/">Link-1</a></li>
+                     <li><a class="dropdown-item" href="https://news.njit.edu/mens-soccer-welcomes-13-recruits-part-2022-incoming-class">Link-2</a></li>
+                     <li><a class="dropdown-item" href="https://www.njit.edu/development/">Link-3</a></li>
+                </ul>
+              </div>
+              <div>
+
+                <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+             <div id="demo" class="collapse">
+                This semester at NJIT has been a pretty good experience because I have learned several things from the professors,<br>
+                the classes, the campus and people from different parts of the world who have helped me adapt to this new system since<br>
+                it is my first semester of study, at NJIT. Thanks to this I have been able to adapt in a good way, however, <br>
+                I am not 100% adapted so I hope that in the future I can improve my personality to be able to improve positively and graduate from NJIT
+             </div>
+             <script>
+                let num1 = 11
+                let num2 = 7
+                
+                 console.log (num1+num2)
+
+                console.log (num1-num2)
+
+                console.log (num1*num2)
+
+                let score = 80
+                
+                if (score >= 90) {
+                    console.log('score = A')
+                }
+                else if (score >= 80) {
+                    console.log ('score = B')
+                }
+                else if (score >=70) {
+                    console.log ('score = C')
+                }
+                else if (score >=60) {
+                    console.log ('score = D')
+                    
+                }
+                else {
+                    console.log('score = F')
+                }
+             </script>
+            <br></br>
+             <button id="changeTextBtn">Try it</button> 
+             <p id="DisplayText"></p>
+             <script>
+                document.getElementById('changeTextBtn').onclick = DisplayText;
+                function DisplayText(){
+                    document.getElementById("DisplayText").innerHTML= "Hello, Javascript World!";
+                }             
+             </script>
+    </body> 
+</html>
